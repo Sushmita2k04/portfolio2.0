@@ -352,6 +352,9 @@ article {
 article .icon {
   cursor: default;
 }
+.section__pic-container:hover img.profile-pic-3 {
+  transform: scale(1.1);
+}
 
 /* PROJECTS SECTION */
 
