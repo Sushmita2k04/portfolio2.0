@@ -60,6 +60,9 @@
           onclick="location.href='https://www.linkedin.com/in/sushmita-kumari-mahato-95589b252/?trk=opento_sprofile_topcard'" />
         <img src="./assets/github.png" alt="My Github profile" class="icon"
           onclick="location.href='https://github.com/Sushmita2k04'" />
+          <img src="./assets/leetcode.png" alt="My Leetcode profile" class="icon"
+        onclick="location.href='https://leetcode.com/u/_mahato_sushmita_/'" />
+    </div>
       </div>
     </div>
   </section>
@@ -71,17 +74,17 @@
         <img src="./assets/profile-pic-2.png" alt="Profile picture" class="about-pic" id="dynamicImage" />
       </div>
 
-    <script>
-      const image = document.getElementById('dynamicImage');
-      
-      image.addEventListener('mouseenter', () => {
-          image.src = './assets/profile-pic-3.png'; // Change to the second image
-      });
+      <script>
+        const image = document.getElementById('dynamicImage');
 
-      image.addEventListener('mouseleave', () => {
+        image.addEventListener('mouseenter', () => {
+          image.src = './assets/profile-pic-3.png'; // Change to the second image
+        });
+
+        image.addEventListener('mouseleave', () => {
           image.src = './assets/profile-pic-2.png'; // Revert back to the first image
-      });
-  </script>
+        });
+      </script>
       <div class="about-details-container">
         <div class="about-containers">
           <div class="details-container">
